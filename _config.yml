@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://mandusm.github.io
+title: Mandus Momberg's Blog
+subtitle: Everything Big and Interesting.
+author: Mandus Momberg
 simple_search: https://www.google.com/search
-description:
+description: This blog is all about BigData, Linux, Windows and the Internet of Things. If it is cool, it belongs here. 
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -91,7 +91,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: mandusm
 disqus_show_comment_count: false
 
 # Google Analytics
