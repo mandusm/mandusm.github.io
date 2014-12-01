@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://mandusm.github.io
+url: http://blog.mandusmomberg.com
 title: Mandus Momberg's Blog
 subtitle: Everything Big and Interesting.
 author: Mandus Momberg
@@ -31,7 +31,7 @@ permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public
 plugins: plugins
-code_dir: downloads/code
+code_dir: /code
 category_dir: blog/categories
 markdown: rdiscount
 rdiscount:
@@ -95,7 +95,7 @@ disqus_short_name: mandusm
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-57224096-2
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
