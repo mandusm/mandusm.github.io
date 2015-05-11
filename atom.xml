@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Mandus Momberg's Blog]]></title>
+  <link href="http://blog.mandusmomberg.com/atom.xml" rel="self"/>
+  <link href="http://blog.mandusmomberg.com/"/>
+  <updated>2015-05-11T21:55:28+02:00</updated>
+  <id>http://blog.mandusmomberg.com/</id>
+  <author>
+    <name><![CDATA[Mandus Momberg]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Open Source Me]]></title>
+    <link href="http://blog.mandusmomberg.com/blog/2015/05/10/open-source-me/"/>
+    <updated>2015-05-10T20:33:56+02:00</updated>
+    <id>http://blog.mandusmomberg.com/blog/2015/05/10/open-source-me</id>
+    <content type="html"><![CDATA[<p>Just like the 90&rsquo;s was the Big Mac generation, we are definitely the Open Source generation. More startups in the mid 2000&rsquo;s were built on top of Open Source technologies than ever before. Most of these companies grew into becoming some of the largest IT enterprises in the world. Obviously I don&rsquo;t need to name the companies I am thinking about, but just because I like to name drop&hellip; Think about Facebook, Google and Netflix, just as a start. But what is this post about? It&rsquo;s about the question&hellip; Do you want fries with that? Or will you be boiling your own&hellip;</p>
+
+<!--more-->
+
+
+<h3>All your code are belongs to us!</h3>
+
+<p>I&rsquo;d like to start off the body of this post by dispelling a common misconception.</p>
+
+<p><code>Open Source software cannot be used on an enterprise level because there is no proper support.</code></p>
+
+<p>This is a very nasty rumor started by the White Coats in the Big Blue and Windowed laboratories of yore. It was a grieves attempt at getting enterprise customers to spend more money on proprietary software and service license agreements so that they could become increasingly more influential and duh.. rich&hellip;</p>
+
+<p>This simply isn&rsquo;t the case and as we will discuss a little later on, the Open Source community thrives on support. In fact, at the heart of this Blog post lies the answer to how you can become a part of this process.</p>
+
+<h3>Living la vida loca</h3>
+
+<p>What a lot of people don&rsquo;t understand is that Open Source isn&rsquo;t just a way of developing or licensing your products. It&rsquo;s a way of life. Or maybe, a way of thinking. Open Source contributers have a very strong belief that information and knowledge should be shared. This doesn&rsquo;t stop with their last git commit to Github, but in fact extends to the way they live. You will often find that individuals who follow and support the Open Source community can be identified as people who like to share and improve in real life. By sharing, I mean, it&rsquo;s the guy at your office who is willing to help you figure out a complex problem on your spreadsheet. The girl that comes up with a bootstrap idea that speeds up the way the coffee machine works at the office. Doing all of this without expecting recognition or money, but rather investing in the common advancement of their immediate environments.</p>
+
+<h3>The final frontier</h3>
+
+<p>I&rsquo;m definitely not saying that all Open Source community members are Trekies, but to drive this idea home I want to use a reference from the Star Trek film &ldquo;First Contact&rdquo;. At one point, Cpt. Picard tries to explain to a woman from the early 2000&rsquo;s what the economy and drive force behind the Human race is in the 21st century. He goes on to explain.</p>
+
+<p><code>We have found a unifying, singular ambition. The advancement and betterment of all mankind</code></p>
+
+<p>It would be very hard to convince me that this ideal did not include the complete availability and freedom in sharing of information and technology. To them, the goal is to make all of humanity better, and to collectively pursue this goal.</p>
+
+<h3>Tie a yellow ribbon</h3>
+
+<p>The Open Source community loves welcoming new members. Members that truly contribute in they way that they can. I will be very surprised if any open source project will show away an individual that is truly willing to commit their time and energy to helping that project. Look, this doesn&rsquo;t mean that difference of opinions don&rsquo;t happen. Thats just part of human nature but usually these get sorted out after a few heated forum threads or pull comments.</p>
+
+<p>If you have been anywhere near the Internet for the last decade, you would know that the lingua franca for the Internet is flaming. Some thick skin required. That said, the benefits and the feeling of being a part of a project that releases and gets adopted and used by thousands of people around the world, has no equal.</p>
+
+<h3>Ahh, but my Dev Kung Fu is Weak!</h3>
+
+<p>Another common myth is that you need to be a developer to contribute to an open source project. This is also simply not true. Any project requires a bunch of people to make it really great. This includes guys with ideas, developers, testers, debuggers and even people with no technical skill but who are willing to write documentation or help organize the logistics of the project.</p>
+
+<p>A great example of this is the Apache Web Server project. In the beginning, this project was mainly contributed to and used by developers. You can imagine that because of this the documentation and even the feature set of the project was in quite a horrible state. After a while, more people started to join the project. Contributing to the documentation, finding bugs and suggesting new features.</p>
+
+<p>Today, the Apache Web Server is the most widely used web server on the Internet. If you have ever used it, you will also know that the documentation is amazing and new features get added quite regularly. You can also look up a list of all the contributors and it will include the document writers and testers who never even made a single commit to the master branch.</p>
+
+<h3>We Need You!</h3>
+
+<p>At the fear of sounding like Uncle Sam, We Need You! Go find a project you can be passionate about and start contributing to it in any way you feel you can help with the best. If this means posting encouraging emoji&rsquo;s in the mailing list every now and again. Do it! There is no contribution too small that isn&rsquo;t valuable. Don&rsquo;t get frightened off by the idea of needing Ninja Dev skills. Live by the Nike slogan and just do it.</p>
+
+<h3>Do you want fries with that?</h3>
+
+<p>I&rsquo;ll lock down this post by asking the question again&hellip; Do you want fries with that? Or will you be heating up the oil and throwing in some spuds yourself?</p>
+
+<p>&mdash; Edit &mdash;  <br/>
+Thanks Ruan for pointing out my typo.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Perfect Terminal]]></title>
+    <link href="http://blog.mandusmomberg.com/blog/2015/05/09/perfect-terminal/"/>
+    <updated>2015-05-09T12:28:57+02:00</updated>
+    <id>http://blog.mandusmomberg.com/blog/2015/05/09/perfect-terminal</id>
+    <content type="html"><![CDATA[<p>I spend an exuberant amount of time working inside terminals and using ssh to manage remote servers. They range from the default terminal interface shipped with Linux, to the more outrageous OSX Based iTerm2. It&rsquo;s safe to say that because of this, I have spent much of my time customizing the way my terminals react and display information as well as store my SSH keys for easy authentication. In this BLOG post I will discuss the terminals I use and the different settings I invoke to make my time spent in them, more pleasurable. I&rsquo;ll also take a look at how to make SSH keys available across terminal sessions.</p>
+
+<!--more-->
+
+
+<h3>An Example</h3>
+
+<p>To start off with, this is an example of my terminal in iTerm2 on OSX
+<img src="http://blog.mandusmomberg.com/images/blog_images/shell_preview.png"></p>
+
+<h3>Choices, Choices.</h3>
+
+<p>As you probably know, there is a very large array of terminal emulators available out there. They are all different across Operating Systems, but most of them have the same basic functionality. <br/>
+For me the core requirements are&hellip;</p>
+
+<ul>
+<li>Split Screen</li>
+<li>Auto Scroll</li>
+<li>Infinite scroll-back</li>
+<li>Broadcasting</li>
+</ul>
+
+
+<p>With the above core requirements in mind, my terminals of choice, per OS, is&hellip;</p>
+
+<ul>
+<li>Windows : <a href="http://www.fosshub.com/ConEmu.html">ConEmu</a></li>
+<li>Linux : <a href="http://gnometerminator.blogspot.com/p/introduction.html">Terminator</a></li>
+<li>OSX : <a href="https://www.iterm2.com/">iTerm2</a></li>
+</ul>
+
+
+<h3>I feel pretty, O so Pretty</h3>
+
+<p>Most of the terminals nowadays come with the ability to theme and set the color schemes of your shell. A lot of my friends opt for the green-on-black combination. This hurts my eyes more than anything else after a few hours and although it looks cool and all Matrix-like, I&rsquo;ve grown to not like it that much. Instead I prefer a soft white on a black background. That, together with some color coding to differentiate between different elements like folders and symlinks is what I have settled on.</p>
+
+<p>To implement this is pretty straight forward and only requires a little tinkering in your Bash Profile settings. Specifically, you need to set the PS1 and PS2 Environment Variables that dictates your Default and Continuous Interactive Prompt. I&rsquo;m not going to go into this in too much detail, but if you want to read some more about it, you can read this awesome post at <a href="http://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/">TheGeekStuff</a></p>
+
+<p>To have the changes persistent across multiple terminals you make the changes in <code>~/.bashrc</code></p>
+
+<figure class='code'><figcaption><span>~/.bashrc</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">export </span><span class="nv">CLICOLOR</span><span class="o">=</span>1
+</span><span class='line'><span class="nb">export </span><span class="nv">LSCOLORS</span><span class="o">=</span>GxFxCxDxBxegedabagaced
+</span><span class='line'>
+</span><span class='line'><span class="k">function</span> prompt <span class="o">{</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">BLACK</span><span class="o">=</span><span class="s2">&quot;\[\033[0;30m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">BLACKBOLD</span><span class="o">=</span><span class="s2">&quot;\[\033[1;30m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">RED</span><span class="o">=</span><span class="s2">&quot;\[\033[0;31m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">REDBOLD</span><span class="o">=</span><span class="s2">&quot;\[\033[1;31m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">GREEN</span><span class="o">=</span><span class="s2">&quot;\[\033[0;32m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">GREENBOLD</span><span class="o">=</span><span class="s2">&quot;\[\033[1;32m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">YELLOW</span><span class="o">=</span><span class="s2">&quot;\[\033[0;33m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">YELLOWBOLD</span><span class="o">=</span><span class="s2">&quot;\[\033[1;33m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">BLUE</span><span class="o">=</span><span class="s2">&quot;\[\033[0;34m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">BLUEBOLD</span><span class="o">=</span><span class="s2">&quot;\[\033[1;34m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">PURPLE</span><span class="o">=</span><span class="s2">&quot;\[\033[0;35m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">PURPLEBOLD</span><span class="o">=</span><span class="s2">&quot;\[\033[1;35m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">CYAN</span><span class="o">=</span><span class="s2">&quot;\[\033[0;36m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">CYANBOLD</span><span class="o">=</span><span class="s2">&quot;\[\033[1;36m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">WHITE</span><span class="o">=</span><span class="s2">&quot;\[\033[0;37m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">WHITEBOLD</span><span class="o">=</span><span class="s2">&quot;\[\033[1;37m\]&quot;</span>
+</span><span class='line'>  <span class="nb">local </span><span class="nv">RESETCOLOR</span><span class="o">=</span><span class="s2">&quot;\[\e[00m\]&quot;</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nb">export </span><span class="nv">PS1</span><span class="o">=</span><span class="s2">&quot;$RED\u$PURPLE @ $GREEN\w:  $RESETCOLOR&quot;</span>
+</span><span class='line'>  <span class="nb">export </span><span class="nv">PS2</span><span class="o">=</span><span class="s2">&quot;| → $RESETCOLOR&quot;</span>
+</span><span class='line'><span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'>prompt
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>My SSH-Swiss Army knife</h3>
+
+<p>Now that my terminal reads easily and I can work without getting a headache every two hours, I needed to look at the way I was logging into remote servers. Usually this is done using SSH and my preferred method of authenticating is by using SSH Keys. If you want more details on how to set up key-less SSH you can read this article at <a href="http://www.linuxproblem.org/art_9.html">LinuxProblems</a></p>
+
+<p>It&rsquo;s quite simple to start the ssh-agent and to add a key to it for easy authentication.</p>
+
+<figure class='code'><figcaption><span>Starting SSH-Agent and Adding Keys</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">eval</span> <span class="sb">`</span>ssh-agent<span class="sb">`</span>
+</span><span class='line'>ssh-add /path/to/key
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Although this is really quite easy, it means that I need to run this every time I open a new terminal. Fair enough, I can add it to my <code>~/.bashrc</code> file and it will automatically do this every time a new terminal is opened, but this will leave me with a huge amount of ssh-agent&rsquo;s running in the background and this isn&rsquo;t something I am happy with.</p>
+
+<p>To fix this, I started working on a solution which will check for a SSH-Agent and then re-use it. A few lines in I figured there should definitely be something like this available in the FOSS community. So after a bit of searching I found this project on Github. <a href="https://github.com/wwalker/ssh-find-agent">ssh-find-agent</a></p>
+
+<p>It works great and it allows me to simplify my script to a huge extent. The first step is to clone this project to somewhere on my machine. I prefer it to be in my home folder in a hidden folder. <code>~/.ssh-find-agent</code></p>
+
+<p>Once this has been cloned, I can then simply add the following to my <code>~/.bashrc</code></p>
+
+<figure class='code'><figcaption><span>~/.bashrc</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#Set The SSH-Agent Environment</span>
+</span><span class='line'>. ~/.ssh-find-agent/ssh-find-agent.sh
+</span><span class='line'>ssh-find-agent -a
+</span><span class='line'><span class="k">if</span> <span class="o">[</span> -z <span class="s2">&quot;$SSH_AUTH_SOCK&quot;</span> <span class="o">]</span>
+</span><span class='line'><span class="k">then</span>
+</span><span class='line'>   <span class="nb">eval</span> <span class="k">$(</span>ssh-agent<span class="k">)</span> &gt; /dev/null
+</span><span class='line'>   ssh-add -l &gt;/dev/null <span class="o">||</span> <span class="nb">alias </span><span class="nv">ssh</span><span class="o">=</span><span class="s1">&#39;ssh-add -l &gt;/dev/null || ssh-add &amp;&amp; unalias ssh; ssh&#39;</span>
+</span><span class='line'>   ssh-add /path/to/key <span class="p">&amp;</span>&gt; /dev/null
+</span><span class='line'><span class="k">fi</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now, every time I launch a new terminal it will look for a running SSH-Agent and add my keys to it, instead launching a new SSH-Agent process. If there is no running process, it will start one.</p>
+
+<h3>&amp;> /dev/null</h3>
+
+<p>There you go, everything you need to know about having a fun and easy terminal session. How to easily log into a server using key-less SSH.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tis the Season of Wifi]]></title>
+    <link href="http://blog.mandusmomberg.com/blog/2014/12/15/tis-the-season-of-wifi/"/>
+    <updated>2014-12-15T21:15:07+02:00</updated>
+    <id>http://blog.mandusmomberg.com/blog/2014/12/15/tis-the-season-of-wifi</id>
+    <content type="html"><![CDATA[<p>Every year in December my family and I go to a small coastal town in the Western Cape. It&rsquo;s a wonderful little town and the weather is perfect for what you would expect from a South African Summer Holiday, but there is one small problem&hellip; No proper internet. Being the tech-head in the family, I was once again turned to, to solve the problem. Luckilly I had a Raspberry Pi, D-Link USB Wifi Adapter and Huawei 3G Dongle in my laptop bag&hellip;</p>
+
+<!--more-->
+
+
+<p></p>
+
+<h3>Some More Turkey Please</h3>
+
+<p>So to set the scene a little better, my family uses more data on their Smart Phones than the contigual United States consumes turkey on Thanks Giving. It&rsquo;s a <code>stupid</code> amount of data and usually its by posting and downloading images of lolcats on social media sites like Facebook, and commenting on the other family members&#8217; bad use of grammar.</p>
+
+<p>This is a fine hobby when at home, since all of them have ADSL and WiFi at home, but here, they are burning through their mobile data bundles like a wildfire in the African Bushveld.</p>
+
+<h3>Please Sir, Can I have some Pi?</h3>
+
+<p>Safe to say, I had to jump in an do something before my whole family spent their holiday budgets on 3G Data Bundles, but I only had limited hardware at my disposal. More specifically, a Raspberry Pi, D-Link USB WiFi Adapter and the Huawei K4305 Vodafone USB 3G Dongle I travel with. Being the MacGuyver-generation guy that I am, I figured if you hand me a toothpic and a hotpocket, I can do this! And I mean, it&rsquo;s Linux. Of course I can!</p>
+
+<h3>The Plan</h3>
+
+<p>I previosly set up a Wireless Hotspot using the <a href="http://w1.fi/hostapd/">HostApd</a> user-space daemon on a small PC I had lying around at home, so I figured that this would also work on a Raspbery Pi. Granted, I would have some compiling in my future to make this work on ARM. Similarly, a few years ago, I was able to successfully establish an Internet Connection using a Huawei E220 USB Dongle and <a href="http://en.wikipedia.org/wiki/WvDial">WVDial</a>. In theory, everything was there, and I figured, all of this should be relatively easy&hellip;</p>
+
+<h3>Icarus, Flying too close to the sun!</h3>
+
+<p>The plan was simple&hellip; The implimentation was a bit more ambitions than I initially thought. To start off with, the D-Link USB WiFi Adapter I have, uses the <code>Realtek rtl8188cus</code> chipset which is not by default available in the HostApd build. This made it a bit difficuilt to get the Hotpsot up and running. Luckilly, Realtek provides the <code>rtl8188cus</code> drivers on their website <a href="http://www.realtek.com/downloads/downloadsView.aspx?Langid=1&amp;PFid=48&amp;Level=5&amp;Conn=4&amp;ProdID=274&amp;DownTypeID=3&amp;GetDown=false&amp;Downloads=true#2742">Here</a> which includes a customized version of HostApd that works with the <code>rtl8188cus</code> chipset. The second problem was that WVDial was useless with the Huawei K4305 Dongle since the device no longer exposes a Serial Device to establish a connection like the E220. Like most of the newer generation dongles, this dongle is a MBIM (Mobile Broadband Implimentation) device which requires you to do some USB Switching in order to expose an ethernet device that you can connect through.</p>
+
+<h3>A Slice of Pi.</h3>
+
+<p>For my little makeshift HotSpot, I used the latest version of Raspbian, downloaded from the <a href="http://www.raspberrypi.org/downloads/">Raspberry Pi Foundation Website</a>. I am not going to go through installing Raspbian in this post, maybe in the future.</p>
+
+<h3>Switching to crying.</h3>
+
+<p>Lets start with getting the Huawei K4305 Modem to work. The MBIM standard specifies that the dongle will have different USB operation modes in which it can be attached to your computer. Mode 1 is usually a Flash Storage mode which has the Drivers and the switching message for your operating system. Once the drivers and software is installed, the switching message will be sent to the device, to switch it to Mode 2. This mode is a virtual ethernet adapter which allows you to use the device as an Internet Gateway. On OSX and Windows this is easily done by the Firmware available on the device, but as far as I can determine, there is no Linux packages available for these devices.</p>
+
+<h3>Enter USB_ModeSwitch.</h3>
+
+<p>Linux being Linux however, there is always some community based software that makes it a little bit easier. In this case, <a href="http://www.draisberghof.de/usb_modeswitch/">USB_ModeSwitch</a></p>
+
+<p>USB_ModeSwitch is (surprise!) a mode switching tool for controlling <code>multi-mode</code> USB devices. It&rsquo;s a software tool that uses the <a href="http://www.libusb.org/">libusb</a> framework to interact directly with the USB Device and switch the modes of the device, based on a ControlMessage and desired operational mode.</p>
+
+<p>Before installing USB_ModeSwitch, this is the <code>lsusb</code> output you will see when the device is connected.</p>
+
+<figure class='code'><figcaption><span>lsusb</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>Bus <span class="m">001</span> Device 004: ID 12d1:1f15 Huawei Technologies Co., Ltd.
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This mode is pretty much useless to us, and we need to now install USB_ModeSwitch and configure it to get our device into the correct format.<br/>
+Download the Latest versions of&hellip;<br/>
+<a href="http://www.draisberghof.de/usb_modeswitch/#download">USB_ModeSwithch</a><br/>
+<a href="http://www.draisberghof.de/usb_modeswitch/#download">USB_ModeSwitch-Data</a><br/>
+<a href="http://www.libusb.org/">LibUSB</a></p>
+
+<p>Unzip each of the tarbals into their respective folders.</p>
+
+<figure class='code'><figcaption><span>lsusb</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>tar -xvf name-of-tarbal
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The first thing we need to install is LibUSB.</p>
+
+<figure class='code'><figcaption><span>Compile LibUSB</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">cd</span> /path/to/libusb/source
+</span><span class='line'>./configure
+</span><span class='line'>make
+</span><span class='line'>sudo make install
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This will compile and move the LibUSB library to the appropriate folders for USB_ModeSwitch to use later. Installing USB_ModeSwitch is quite a bit simpler.</p>
+
+<figure class='code'><figcaption><span>Install USB_ModeSwitch</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">cd</span> /path/to/usb_modeswitch
+</span><span class='line'>sudo make install
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This will move the usb_modeswitch binaries to the relevant folders. Now we need to export the data-set rules for the known USB devices.</p>
+
+<figure class='code'><figcaption><span>Install USB_ModeSwitch Data</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">cd</span> /path/to/usb_modeswitch-data
+</span><span class='line'>sudo make install
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The USB_ModeSwitch-data contains the device database and the rules file, including full paths which tells it how to work with specific devices, and how to switch them. So now we have the switcher installed, but we still need to tell it how to handle the Huawei K4305 device. We do this by adding a config file to the /etc/usb_modeswitch.d/ folder.</p>
+
+<figure class='code'><figcaption><span>/etc/usb_modeswitch.d/10-huawei-k4305.conf</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">########################################################</span>
+</span><span class='line'><span class="c"># Huawei K4305</span>
+</span><span class='line'><span class="c">#</span>
+</span><span class='line'><span class="c"># Contributor: Dario</span>
+</span><span class='line'>
+</span><span class='line'><span class="nv">DefaultVendor</span><span class="o">=</span> 0x12d1
+</span><span class='line'><span class="nv">DefaultProduct</span><span class="o">=</span>0x1f15
+</span><span class='line'>
+</span><span class='line'><span class="nv">TargetVendor</span><span class="o">=</span>  0x12d1
+</span><span class='line'><span class="nv">TargetProduct</span><span class="o">=</span> 0x1400
+</span><span class='line'>
+</span><span class='line'><span class="nv">MessageContent</span><span class="o">=</span><span class="s2">&quot;55534243123456780000000000000011062000000000000100000000000000&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I don&rsquo;t want to go into too much detail about this file, since it will take some time to explain the Vendor and Product ID&rsquo;s. But take a closer look at the DefaultVendor and DefaultProduct ID&rsquo;s and match them to the lsusb output earlier in the post. You can see they match up to the Mode1 ID&rsquo;s of the device. We want USB_ModeSwitch to switch it to Mode2 with the TargetID&rsquo;s. The MessageContent is the message submitted to the device, in order to flip the device to the correct mode.</p>
+
+<p>At this point, we plug in the device. Which should automatically switch the mode of the device, but just in case it doesn&rsquo;t you can manually run the command:</p>
+
+<figure class='code'><figcaption><span>USB_ModeSwitch Device</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>usb_modeswitch -c /etc/usb_modeswitch.d/10-huawei-k4305.conf
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now, when you do lsusb, you should see the following</p>
+
+<figure class='code'><figcaption><span>lsusb</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>Bus <span class="m">001</span> Device 004: ID 12d1:1400 Huawei Technologies Co., Ltd.
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>As you can see, the Device is now mounted on the target endpoints, and when you do an ifconfig you should now see a new ethernet device eth1.</p>
+
+<figure class='code'><figcaption><span>ifconfig output</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>eth1      Link encap:Ethernet  HWaddr 58:2c:80:13:92:63
+</span><span class='line'>          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+</span><span class='line'>          RX packets:288212 errors:0 dropped:0 overruns:0 frame:0
+</span><span class='line'>          TX packets:241372 errors:0 dropped:0 overruns:0 carrier:0
+</span><span class='line'>          collisions:0 txqueuelen:1000
+</span><span class='line'>          RX bytes:263381189 <span class="o">(</span>251.1 MiB<span class="o">)</span>  TX bytes:95811469 <span class="o">(</span>91.3 MiB<span class="o">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>At this point, you have your device mounted and you have a new cdc_ether device on eth1. But you still don&rsquo;t have internet connection. However, this part is actually stupidly easy. Its a network device&hellip; What is the easiest way to get IP Settings from a routing device? Thats right! DHCP!</p>
+
+<figure class='code'><figcaption><span>Get the Device IP Details</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo dhclient eth1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This should now assign a new IP address in the 192.168.9.0/24 range. And should assign a new Default Gateway at 192.168.9.1.</p>
+
+<figure class='code'><figcaption><span>Ifconfig Output</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>eth1      Link encap:Ethernet  HWaddr 58:2c:80:13:92:63
+</span><span class='line'>          inet addr:192.168.9.100  Bcast:192.168.9.255  Mask:255.255.255.0
+</span><span class='line'>          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+</span><span class='line'>          RX packets:288212 errors:0 dropped:0 overruns:0 frame:0
+</span><span class='line'>          TX packets:241372 errors:0 dropped:0 overruns:0 carrier:0
+</span><span class='line'>          collisions:0 txqueuelen:1000
+</span><span class='line'>          RX bytes:263381189 <span class="o">(</span>251.1 MiB<span class="o">)</span>  TX bytes:95811469 <span class="o">(</span>91.3 MiB<span class="o">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Congratulations! You now have a switched device and internet access! Woohoo! Which is great, but it&rsquo;s still only available on your Raspberry Pi. We now need to set up HostAPD for our HotSpot.</p>
+
+<h3>Oh HostAPD, how you trick me so, you trickster.</h3>
+
+<p>As mentioned previously in my post, the DLink USB Wifi Adapter I have uses the rtl8188cus chipset, which is a decent chipset, but doesn&rsquo;t play nice with the usual build of HostAPD. The guys at Realtek however were nice enough to add the HostAPD source to the rtl8188cus drivers. You can go through the whole process of recompiling it yourself, like I did. However, after I finally got mine compiled and working, I found a script that makes installing a Hotspot easier than crashing Windows.</p>
+
+<figure class='code'><figcaption><span>Download and Install HostAPD</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>curl -kLsO <span class="s2">&quot;https://dl.dropboxusercontent.com/u/1663660/scripts/install-rtl8188cus.sh&quot;</span>
+</span><span class='line'>chmod +x install-rtl8188cus.sh
+</span><span class='line'>sudo ./install-rtl8188cus.sh
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This script is created by &ldquo;Paul&rdquo; and the original post can be found <a href="http://blog.sip2serve.com/post/48899893167/rtl8188-access-point-install-script">here</a>. It simply asks you a few questions about your environment and sets up your Wifi Hotspot.</p>
+
+<h3>Surfin&hellip;Surfin Mossel Baaaay!</h3>
+
+<p>Thats it folks! My family now has a working Raspberry Pi powered Hotspot for their Holiday. I went a bit further and installed some QOS software and caching software to save some data and bandwith since there is about 12 devices on the hotspot. But you can now customize your hotspot in any way you want!</p>
+
+<p>The caching turned out to be a great idea, since it seems like they are mostly viewing the same photos and sharing the same content between each other. Which is funny, when you think they are literally standing next to each other when they do it. Hahaha.</p>
+
+<p>I&rsquo;m just happy I get to watch Marco Polo on <a href="http://www.netflix.com">Netflix</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[O! What a Beautiful BASHing!]]></title>
+    <link href="http://blog.mandusmomberg.com/blog/2014/12/01/o-what-a-beautiful-bashing/"/>
+    <updated>2014-12-01T18:52:58+02:00</updated>
+    <id>http://blog.mandusmomberg.com/blog/2014/12/01/o-what-a-beautiful-bashing</id>
+    <content type="html"><![CDATA[<p>On a daily basis I get faced with interesting problems for which I need to find simple and elegant solutions. The problem though is that these solutions need to work across a large, very diverse, set of environments. So I can&rsquo;t rely on languages like Ruby or Python to always solve my problems, because, the truth is, the environment in which the solution needs to work might not have it installed. But there is one thing, a common denominator across almost all Linux environments that I can comfortably rely on.</p>
+
+<p>BASH!</p>
+
+<!-- More -->
+
+
+<h3>Love is a strong word&hellip;</h3>
+
+<p>I find myself loving BASH and the Linux toolchain more and more every time I use it. I have never been let down by BASH and scripting simple solutions to otherwise complex problems is a breeze with tools like <code>cat</code>, <code>grep</code>, <code>awk</code>, <code>cut</code> and many more.</p>
+
+<p>Just this afternoon I was facing a problem where I needed to download a bunch of images from an <a href="http://imgur.com/">imgur</a> album that a friend of mine in the USA sent me. For some odd reason, the &ldquo;Download Album&rdquo; Link just wasn&rsquo;t working. So, I decided to throw some bash at it.</p>
+
+<p>In about 5 minutes I had a working script that would take the imgur album URL and download all jpg images in that album to a folder I specify.
+The main tool that I used for the backbone of this script was <a href="http://curl.haxx.se/docs/manpage.html">cURL</a>, and thus! THE imgur-curl was born!</p>
+
+<h3>Olympic cURLing.</h3>
+
+<p>Okay, Okay. So the heading is a tad excessive, and the &ldquo;curling&rdquo; I am doing in this script is minimal at best, but I just had to throw a &ldquo;Curling&rdquo; reference in there somewhere.</p>
+
+<h4>So what is cURL?</h4>
+
+<p><a href="http://curl.haxx.se/docs/manpage.html">cURL</a> is a tool to transfer data from or to a server, using one of the supported protocols. It has a busload full of useful tricks like proxy support, user authentication, FTP upload, HTTP post, SSL connections, cookies, file transfer resume, Metalink, and more that has gotten me out of quite a few &ldquo;slippery&rdquo; situations. (See what I did there? Slippery&hellip; Curling&hellip;. Ice.. Get it? )</p>
+
+<p>Aaanyway&hellip; So, cURL has gotten me out of some pretty tough spots. From having to automate the provisioning of a very complex networking infrastructure, to something as simple as scraping a website for jpg links.
+The way you can use it is virtually limited only by your imagination and it&rsquo;s got a tiny footprint on your environment&rsquo;s resources.</p>
+
+<h3>We get it&hellip; Show us the script already!</h3>
+
+<p>Hold your horses already&hellip; Good things are worth&hellip; Ugh, who am I kidding, here you go.</p>
+
+<figure class='code panel panel-default'><figcaption class='panel-heading'><h3 class='panel-title'> (imgur-curl.sh)</h3> <a href='http://blog.mandusmomberg.com/code/imgur-curl.sh'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'>
+</span><span class='line'><span class="nv">CURL_CHECK</span><span class="o">=</span><span class="k">$(</span>whereis curl <span class="p">|</span> awk <span class="s1">&#39;{print $2}&#39;</span><span class="k">)</span>
+</span><span class='line'><span class="k">if</span> <span class="o">[[</span> <span class="nv">$CURL_CHECK</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
+</span><span class='line'>  <span class="nb">echo </span>This script requires CURL
+</span><span class='line'>  <span class="nb">echo </span>apt-get install curl or yum install curl
+</span><span class='line'>  <span class="nb">exit </span>1
+</span><span class='line'><span class="k">fi</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">if</span> <span class="o">[[</span> <span class="nv">$1</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="o">||</span> <span class="nv">$2</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
+</span><span class='line'>  <span class="nb">echo </span>Correct Usage imgr-curl URL Download_Directory
+</span><span class='line'>  <span class="nb">exit </span>1
+</span><span class='line'><span class="k">fi</span>
+</span><span class='line'>      
+</span><span class='line'>
+</span><span class='line'><span class="nv">CURL_GET</span><span class="o">=</span><span class="k">$(</span>curl -kL <span class="nv">$1</span><span class="k">)</span>
+</span><span class='line'><span class="nv">IMG_SCRAPE</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$CURL_GET</span> <span class="p">|</span> grep -oE <span class="s1">&#39;\/\/i\.imgur.com\/\w*\.jpg&#39;</span><span class="k">)</span>
+</span><span class='line'><span class="k">for</span> url in <span class="nv">$IMG_SCRAPE</span><span class="p">;</span> <span class="k">do</span>
+</span><span class='line'>  <span class="nv">FILENAME</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$url</span> <span class="p">|</span> grep -oE <span class="s1">&#39;\w+\.jpg&#39;</span><span class="k">)</span>
+</span><span class='line'>  <span class="nv">SMALL</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$FILENAME</span> <span class="p">|</span> grep -oE <span class="s1">&#39;\w{2,}s\.jpg&#39;</span><span class="k">)</span>
+</span><span class='line'>      <span class="k">if</span> <span class="o">[</span> <span class="nv">$SMALL</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+</span><span class='line'>          <span class="k">continue</span>
+</span><span class='line'>      <span class="k">fi</span>
+</span><span class='line'>  <span class="nb">echo </span>Fetching <span class="nv">$FILENAME</span> FROM http://i.imgur.com/<span class="nv">$FILENAME</span>
+</span><span class='line'>  curl -kL http://i.imgur.com/<span class="nv">$FILENAME</span> -o <span class="s2">&quot;$2/$FILENAME&quot;</span> --create-dirs
+</span><span class='line'><span class="k">done</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>As you can see, its a pretty simple script. Lines 2 - 13 is effectively there to make sure that the script will do what it is intended to do, download imgur jpg&rsquo;s with cURL.</p>
+
+<p>Line 16 Is where the fun starts. On this line I set a variable CURL_GET to hold the output of my cURL request. I pass the options <code>-kL</code> to my request. I&rsquo;ll use this to do my scraping.<br/>
+<code>-k</code> Tells cURL to ignore any SSL Certificate issues it might detect, and just continue going.<br/>
+<code>-L</code> Tells cURL to adhere to any HTTP Redirects the server might issue and to follow them. If you don&rsquo;t do this, you might end up with a nice white page with text &ldquo;Permanently Moved&rdquo;</p>
+
+<p>On Line 17 I set a new variable which will contain a list of imgur jpeg names that I scraped from the page.
+I get these names by using <code>grep</code> and by passing <code>-o</code> and <code>-E</code> as arguments. <br/>
+<code>-o</code> Tells grep to only display the parts that match my query<br/>
+<code>-E</code> Allows me to define the query as a Regular Expression.</p>
+
+<p>I&rsquo;m not going to go into much details on Regular Expressions in this post, but if you are interested, go over to <a href="http://regexr.com">RegExr</a>. Its a brillaint interactive website that makes learing and testing your Regular Expressions a breeze.</p>
+
+<p>Lines 18 to 26 is a <a href="http://ss64.com/bash/for.html">for</a> loop that I use to iterate through the image names I stored in the IMG_SCRAPE variable and download them using curl.
+The imgur page that I scrape for the links also have &ldquo;small&rdquo; files that are used as sortof thumbnails to make the page load faster. I do some addition checking in my for loop for these files, and if I detect it, I skip it and I don&rsquo;t download the image since I am only interested in the high quality images.</p>
+
+<p>Now that I have the image name, I can download it from imgur using cURL. <br/>
+I once again break out the same <code>-kL</code> arguments to follow redirects and ignore SSL issues but this time I add <code>-o</code> and <code>--create-dirs</code>.  <br/>
+<code>-o</code> is shorthand for specifying the output directory where I want the content I&rsquo;m downloading to be stored. With <code>-o</code> I need to set the filename as well. You can use <code>-O</code> which will use the original filename.   <br/>
+<code>--create-dirs</code> does exactly that, creates the directory I want to store the files if it does not exist.</p>
+
+<h3>Is that it?</h3>
+
+<p>Yup, pretty much that. Super, Simple Stuff. I told you. But it&rsquo;s only the beginning. It&rsquo;s now up to you to go ahead and expand on this and make it your own..</p>
+
+<p>I decided to start a Github repository where I will be adding scripts that I find useful. There will be some oldies and some new ones as I keep developing them. If you want to take a look, you can find the repo here <a href="https://github.com/mandusm/BASH">Bash Script Repo</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[This Is a New Start! Welcome OctoPress!]]></title>
+    <link href="http://blog.mandusmomberg.com/blog/2014/11/30/this-is-a-new-start/"/>
+    <updated>2014-11-30T19:25:07+02:00</updated>
+    <id>http://blog.mandusmomberg.com/blog/2014/11/30/this-is-a-new-start</id>
+    <content type="html"><![CDATA[<p>Every so often I get asked to write an article on a certain specific subject. I am a bit ashamed to admit that I very rarely respond to those requests and outside of work where I am somewhat required to submit technical documentation, I don&rsquo;t get around to writing about my interesting exploits in the world of tech.</p>
+
+<p>Hopefully, this blog will be the beginning of an era where I actually get around to vocalising my daily exploits on a more regular basis. So to kick off my new blog, I&rsquo;ll write a short article about OctoPress, how to set it up and why I decided to go with a statically generated blog as apposed to something like WordPress&hellip;</p>
+
+<!--more-->
+
+
+<h3>Why OctoPress?</h3>
+
+<p>Simplicity. In an industry that is so overwhelmed by dynamic this and elastic that, I have come to really appreciate the simple things in life. I love the idea that my blog can be hosted directly from a AWS S3 bucket or GitHub pages without a single complex system behind it. OctoPress is elegant, easy and beautiful. The possibilities is endless and deploying it and updating it on the go is one of the easiest things you can think of doing.</p>
+
+<h4>Octostrap&hellip; Really?</h4>
+
+<p>Yes! I don&rsquo;t care what anyone says, the Twitter Bootstrap framework is possibly the best thing that has ever been done for developers that frequently develop responsive web applications. I also love the design elements of Bootstrap, even the basic &ldquo;off the shelf&rdquo; design that it ships with. However, that doesn&rsquo;t stop you from really easilly adding your own flare to the framework. Themes like BootSwatch makes it so easy to extend on the standard look and web apps like <a href="http://pikock.github.io/bootstrap-magic/index.html">Bootstrap Magic </a> make it easy as pie to create your own personal look and feel.</p>
+
+<h3>Fine, Tell me how to set it up&hellip;</h3>
+
+<p>Sure, but first off, some backround on what you will need. Everyone knows I am a huge Linux fan, so obviously I will be guiding you on how to do this on a Linux Desktop, more specifically an Ubuntu Based, Mint Linux Desktop, but this does not mean that you should be using the same. OctoPress will run on anything that runs Ruby, and well, thats everything except your fancy Chinese Smart Toilet.</p>
+
+<h5>Requirements</h5>
+
+<ul>
+<li>Ruby ~> 1.9.3</li>
+<li>Ruby Gems ~> 1.8.23</li>
+<li>Git ~> 1.9.1</li>
+</ul>
+
+
+<h6>Step 1: Install Git</h6>
+
+<p>If you haven&rsquo;t already got it, install Git on your Desktop. Using a Linux Desktop like Ubuntu you can use apt-get, or for Fedora, yum.</p>
+
+<figure class='code'><figcaption><span>Install Git using the terminal</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo apt-get install git
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h6>Step 2: Clone into the OctoPress Repo.</h6>
+
+<figure class='code'><figcaption><span>Make Dir and Clone Repo</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git clone git://github.com/imathis/octopress.git myblog
+</span><span class='line'><span class="nb">cd </span>myblog
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h6>Step 3: Configure and Install the Required Gems.</h6>
+
+<figure class='code'><figcaption><span>Install and Configure Gems</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo gem install bundler -V
+</span><span class='line'>sudo bundle install
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Okay, Okay. So here I need to stop and give a bit of an explanation. The first command installs bundler. <a href="http://bundler.io/">Bundler</a> is a Ruby Library that allows you to add a file to the source of your application with a list of all it&rsquo;s dependencies. When you install it, you only need to execute Bundler and it will install all of the necessary Gems. It&rsquo;s pretty important that you run both these commands as <code>sudo</code> otherwise the Gems will most likely fail to install.</p>
+
+<h6>Step 4: Install OctoPress</h6>
+
+<figure class='code'><figcaption><span>Install OctoPress</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake install
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>At this point we have all the dependencies required by Octopress and we can now use Rake to install and configure it for us. <a href="https://github.com/ruby/rake">Rake</a> is a Make-like program implemented in Ruby. Tasks and dependencies are specified in standard Ruby syntax. Just like Make, it&rsquo;s pretty powerfull and pretty awesome, so I would suggest you check it out if you are into creating CLI tools and whatchamathings.</p>
+
+<h6>Step 5: Install OctoStrap Theme.</h6>
+
+<figure class='code'><figcaption><span>Install OctoStrap</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git clone https://github.com/kAworu/octostrap3.git .themes/octostrap3
+</span><span class='line'>rake <span class="s2">&quot;install[octostrap3]&quot;</span>
+</span><span class='line'>rake generate
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This step essentially downloads the source files from the Git repo and saves them in the .themes folder, in the root directory of OctoPress. You then activate the theme by running the rake &ldquo;install[themename]&rdquo; command which moves the correct files into the correct places. There are <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">many OctoPress Themes</a> available, but like I mentioned earlier, I am a big Bootstrap fan. Also, if you want to modify the OctoStrap Theme to personally fit your needs, follow their <a href="http://kaworu.github.io/octostrap3/setup/pick-a-theme/">Docs</a>, The generate command generates all of the HTML for the new theme. You will run rake generate every time before you publish your blog.</p>
+
+<h6>Step 6: Configure OctoPress</h6>
+
+<figure class='code'><figcaption><span>Configure OctoPress</span><a href='https://github.com/imathis/octopress/blob/master/_config.yml'>Link to Gitbhub Source</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="ss">url</span><span class="p">:</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">blog</span><span class="o">.</span><span class="n">mandusmomberg</span><span class="o">.</span><span class="n">com</span>
+</span><span class='line'><span class="ss">title</span><span class="p">:</span> <span class="no">Mandus</span> <span class="no">Momberg</span><span class="err">&#39;</span><span class="n">s</span> <span class="no">Blog</span>
+</span><span class='line'><span class="ss">subtitle</span><span class="p">:</span> <span class="no">Everything</span> <span class="no">Big</span> <span class="ow">and</span> <span class="no">Interesting</span><span class="o">.</span>
+</span><span class='line'><span class="ss">author</span><span class="p">:</span> <span class="no">Mandus</span> <span class="no">Momberg</span>
+</span><span class='line'><span class="ss">simple_search</span><span class="p">:</span> <span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">www</span><span class="o">.</span><span class="n">google</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">search</span>
+</span><span class='line'><span class="ss">description</span><span class="p">:</span> <span class="no">This</span> <span class="n">blog</span> <span class="n">is</span> <span class="n">all</span> <span class="n">about</span> <span class="no">BigData</span><span class="p">,</span> <span class="no">Linux</span><span class="p">,</span> <span class="no">Windows</span> <span class="ow">and</span> <span class="n">the</span> <span class="no">Internet</span> <span class="n">of</span> <span class="no">Things</span><span class="o">.</span> <span class="no">If</span> <span class="n">it</span> <span class="n">is</span> <span class="n">cool</span><span class="p">,</span> <span class="n">it</span> <span class="n">belongs</span> <span class="n">here</span><span class="o">.</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The OctoPress config can be found in the _config.yml file in the root folder of OctoPress. There is quite a few setting you can set here, but I am not going to go into too much detail on it. If you want to, you can read the <a href="http://octopress.org/docs/configuring/">Official Documentation</a></p>
+
+<h6>Step 7: Start Bloggin</h6>
+
+<p>At this stage your blog has been set up and you can now start creating posts and pages. Depending on your theme, you might need to make changes to the Navigation Menu in the _config.yml file if you want to.
+To create a new Post, you simply run the command:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake new_post<span class="o">[</span><span class="s2">&quot;title&quot;</span><span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>
+To create a new Page, you can run:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake new_page<span class="o">[</span><span class="s2">&quot;page name&quot;</span><span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Both these commands will create files in the <code>./source</code> directory. Respectivly in their own folders <code>_posts</code> and &lsquo;_pages&rsquo;
+If you want to learn more about posts and pages, and need some more guidance, you can read the <a href="http://octopress.org/docs/blogging/">Official Docs</a></p>
+
+<h3>And Folks, Thats All She Wrote, For Now&hellip;</h3>
+
+<p>There is quite a bit I could be writing around deploying your blog but I felt that this should be another post on its own. Since you can deploy your Blog to Github Pages, S3 and a bunch of other places, I would rather want to spend some time speaking about the benifits and failures of all three and this post is already way to long for that.</p>
+
+<p>Thanks for reading this far and please feel free to leave a comment below.</p>
+]]></content>
+  </entry>
+  
+</feed>

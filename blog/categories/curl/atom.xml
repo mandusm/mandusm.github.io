@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Curl | Mandus Momberg's Blog]]></title>
+  <link href="http://blog.mandusmomberg.com/blog/categories/curl/atom.xml" rel="self"/>
+  <link href="http://blog.mandusmomberg.com/"/>
+  <updated>2015-05-11T21:55:28+02:00</updated>
+  <id>http://blog.mandusmomberg.com/</id>
+  <author>
+    <name><![CDATA[Mandus Momberg]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[O! What a Beautiful BASHing!]]></title>
+    <link href="http://blog.mandusmomberg.com/blog/2014/12/01/o-what-a-beautiful-bashing/"/>
+    <updated>2014-12-01T18:52:58+02:00</updated>
+    <id>http://blog.mandusmomberg.com/blog/2014/12/01/o-what-a-beautiful-bashing</id>
+    <content type="html"><![CDATA[<p>On a daily basis I get faced with interesting problems for which I need to find simple and elegant solutions. The problem though is that these solutions need to work across a large, very diverse, set of environments. So I can&rsquo;t rely on languages like Ruby or Python to always solve my problems, because, the truth is, the environment in which the solution needs to work might not have it installed. But there is one thing, a common denominator across almost all Linux environments that I can comfortably rely on.</p>
+
+<p>BASH!</p>
+
+<!-- More -->
+
+
+<h3>Love is a strong word&hellip;</h3>
+
+<p>I find myself loving BASH and the Linux toolchain more and more every time I use it. I have never been let down by BASH and scripting simple solutions to otherwise complex problems is a breeze with tools like <code>cat</code>, <code>grep</code>, <code>awk</code>, <code>cut</code> and many more.</p>
+
+<p>Just this afternoon I was facing a problem where I needed to download a bunch of images from an <a href="http://imgur.com/">imgur</a> album that a friend of mine in the USA sent me. For some odd reason, the &ldquo;Download Album&rdquo; Link just wasn&rsquo;t working. So, I decided to throw some bash at it.</p>
+
+<p>In about 5 minutes I had a working script that would take the imgur album URL and download all jpg images in that album to a folder I specify.
+The main tool that I used for the backbone of this script was <a href="http://curl.haxx.se/docs/manpage.html">cURL</a>, and thus! THE imgur-curl was born!</p>
+
+<h3>Olympic cURLing.</h3>
+
+<p>Okay, Okay. So the heading is a tad excessive, and the &ldquo;curling&rdquo; I am doing in this script is minimal at best, but I just had to throw a &ldquo;Curling&rdquo; reference in there somewhere.</p>
+
+<h4>So what is cURL?</h4>
+
+<p><a href="http://curl.haxx.se/docs/manpage.html">cURL</a> is a tool to transfer data from or to a server, using one of the supported protocols. It has a busload full of useful tricks like proxy support, user authentication, FTP upload, HTTP post, SSL connections, cookies, file transfer resume, Metalink, and more that has gotten me out of quite a few &ldquo;slippery&rdquo; situations. (See what I did there? Slippery&hellip; Curling&hellip;. Ice.. Get it? )</p>
+
+<p>Aaanyway&hellip; So, cURL has gotten me out of some pretty tough spots. From having to automate the provisioning of a very complex networking infrastructure, to something as simple as scraping a website for jpg links.
+The way you can use it is virtually limited only by your imagination and it&rsquo;s got a tiny footprint on your environment&rsquo;s resources.</p>
+
+<h3>We get it&hellip; Show us the script already!</h3>
+
+<p>Hold your horses already&hellip; Good things are worth&hellip; Ugh, who am I kidding, here you go.</p>
+
+<p><figure class='code panel panel-default'><figcaption class='panel-heading'><h3 class='panel-title'> (imgur-curl.sh)</h3> <a href='/code/imgur-curl.sh'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'>
+</span><span class='line'><span class="nv">CURL_CHECK</span><span class="o">=</span><span class="k">$(</span>whereis curl <span class="p">|</span> awk <span class="s1">&#39;{print $2}&#39;</span><span class="k">)</span>
+</span><span class='line'><span class="k">if</span> <span class="o">[[</span> <span class="nv">$CURL_CHECK</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
+</span><span class='line'>	<span class="nb">echo </span>This script requires CURL
+</span><span class='line'>	<span class="nb">echo </span>apt-get install curl or yum install curl
+</span><span class='line'>	<span class="nb">exit </span>1
+</span><span class='line'><span class="k">fi</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">if</span> <span class="o">[[</span> <span class="nv">$1</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="o">||</span> <span class="nv">$2</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
+</span><span class='line'>	<span class="nb">echo </span>Correct Usage imgr-curl URL Download_Directory
+</span><span class='line'>	<span class="nb">exit </span>1
+</span><span class='line'><span class="k">fi</span>
+</span><span class='line'>		
+</span><span class='line'>
+</span><span class='line'><span class="nv">CURL_GET</span><span class="o">=</span><span class="k">$(</span>curl -kL <span class="nv">$1</span><span class="k">)</span>
+</span><span class='line'><span class="nv">IMG_SCRAPE</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$CURL_GET</span> <span class="p">|</span> grep -oE <span class="s1">&#39;\/\/i\.imgur.com\/\w*\.jpg&#39;</span><span class="k">)</span>
+</span><span class='line'><span class="k">for</span> url in <span class="nv">$IMG_SCRAPE</span><span class="p">;</span> <span class="k">do</span>
+</span><span class='line'>	<span class="nv">FILENAME</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$url</span> <span class="p">|</span> grep -oE <span class="s1">&#39;\w+\.jpg&#39;</span><span class="k">)</span>
+</span><span class='line'>	<span class="nv">SMALL</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$FILENAME</span> <span class="p">|</span> grep -oE <span class="s1">&#39;\w{2,}s\.jpg&#39;</span><span class="k">)</span>
+</span><span class='line'>		<span class="k">if</span> <span class="o">[</span> <span class="nv">$SMALL</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+</span><span class='line'>			<span class="k">continue</span>
+</span><span class='line'>		<span class="k">fi</span>
+</span><span class='line'>	<span class="nb">echo </span>Fetching <span class="nv">$FILENAME</span> FROM http://i.imgur.com/<span class="nv">$FILENAME</span>
+</span><span class='line'>	curl -kL http://i.imgur.com/<span class="nv">$FILENAME</span> -o <span class="s2">&quot;$2/$FILENAME&quot;</span> --create-dirs
+</span><span class='line'><span class="k">done</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p>As you can see, its a pretty simple script. Lines 2 - 13 is effectively there to make sure that the script will do what it is intended to do, download imgur jpg&rsquo;s with cURL.</p>
+
+<p>Line 16 Is where the fun starts. On this line I set a variable CURL_GET to hold the output of my cURL request. I pass the options <code>-kL</code> to my request. I&rsquo;ll use this to do my scraping.<br/>
+<code>-k</code> Tells cURL to ignore any SSL Certificate issues it might detect, and just continue going.<br/>
+<code>-L</code> Tells cURL to adhere to any HTTP Redirects the server might issue and to follow them. If you don&rsquo;t do this, you might end up with a nice white page with text &ldquo;Permanently Moved&rdquo;</p>
+
+<p>On Line 17 I set a new variable which will contain a list of imgur jpeg names that I scraped from the page.
+I get these names by using <code>grep</code> and by passing <code>-o</code> and <code>-E</code> as arguments. <br/>
+<code>-o</code> Tells grep to only display the parts that match my query<br/>
+<code>-E</code> Allows me to define the query as a Regular Expression.</p>
+
+<p>I&rsquo;m not going to go into much details on Regular Expressions in this post, but if you are interested, go over to <a href="http://regexr.com">RegExr</a>. Its a brillaint interactive website that makes learing and testing your Regular Expressions a breeze.</p>
+
+<p>Lines 18 to 26 is a <a href="http://ss64.com/bash/for.html">for</a> loop that I use to iterate through the image names I stored in the IMG_SCRAPE variable and download them using curl.
+The imgur page that I scrape for the links also have &ldquo;small&rdquo; files that are used as sortof thumbnails to make the page load faster. I do some addition checking in my for loop for these files, and if I detect it, I skip it and I don&rsquo;t download the image since I am only interested in the high quality images.</p>
+
+<p>Now that I have the image name, I can download it from imgur using cURL. <br/>
+I once again break out the same <code>-kL</code> arguments to follow redirects and ignore SSL issues but this time I add <code>-o</code> and <code>--create-dirs</code>.  <br/>
+<code>-o</code> is shorthand for specifying the output directory where I want the content I&rsquo;m downloading to be stored. With <code>-o</code> I need to set the filename as well. You can use <code>-O</code> which will use the original filename.   <br/>
+<code>--create-dirs</code> does exactly that, creates the directory I want to store the files if it does not exist.</p>
+
+<h3>Is that it?</h3>
+
+<p>Yup, pretty much that. Super, Simple Stuff. I told you. But it&rsquo;s only the beginning. It&rsquo;s now up to you to go ahead and expand on this and make it your own..</p>
+
+<p>I decided to start a Github repository where I will be adding scripts that I find useful. There will be some oldies and some new ones as I keep developing them. If you want to take a look, you can find the repo here <a href="https://github.com/mandusm/BASH">Bash Script Repo</a></p>
+]]></content>
+  </entry>
+  
+</feed>

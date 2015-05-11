@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Howto, | Mandus Momberg's Blog]]></title>
+  <link href="http://blog.mandusmomberg.com/blog/categories/howto/atom.xml" rel="self"/>
+  <link href="http://blog.mandusmomberg.com/"/>
+  <updated>2015-05-11T21:55:28+02:00</updated>
+  <id>http://blog.mandusmomberg.com/</id>
+  <author>
+    <name><![CDATA[Mandus Momberg]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[This Is a New Start! Welcome OctoPress!]]></title>
+    <link href="http://blog.mandusmomberg.com/blog/2014/11/30/this-is-a-new-start/"/>
+    <updated>2014-11-30T19:25:07+02:00</updated>
+    <id>http://blog.mandusmomberg.com/blog/2014/11/30/this-is-a-new-start</id>
+    <content type="html"><![CDATA[<p>Every so often I get asked to write an article on a certain specific subject. I am a bit ashamed to admit that I very rarely respond to those requests and outside of work where I am somewhat required to submit technical documentation, I don&rsquo;t get around to writing about my interesting exploits in the world of tech.</p>
+
+<p>Hopefully, this blog will be the beginning of an era where I actually get around to vocalising my daily exploits on a more regular basis. So to kick off my new blog, I&rsquo;ll write a short article about OctoPress, how to set it up and why I decided to go with a statically generated blog as apposed to something like WordPress&hellip;</p>
+
+<!--more-->
+
+
+<h3>Why OctoPress?</h3>
+
+<p>Simplicity. In an industry that is so overwhelmed by dynamic this and elastic that, I have come to really appreciate the simple things in life. I love the idea that my blog can be hosted directly from a AWS S3 bucket or GitHub pages without a single complex system behind it. OctoPress is elegant, easy and beautiful. The possibilities is endless and deploying it and updating it on the go is one of the easiest things you can think of doing.</p>
+
+<h4>Octostrap&hellip; Really?</h4>
+
+<p>Yes! I don&rsquo;t care what anyone says, the Twitter Bootstrap framework is possibly the best thing that has ever been done for developers that frequently develop responsive web applications. I also love the design elements of Bootstrap, even the basic &ldquo;off the shelf&rdquo; design that it ships with. However, that doesn&rsquo;t stop you from really easilly adding your own flare to the framework. Themes like BootSwatch makes it so easy to extend on the standard look and web apps like <a href="http://pikock.github.io/bootstrap-magic/index.html">Bootstrap Magic </a> make it easy as pie to create your own personal look and feel.</p>
+
+<h3>Fine, Tell me how to set it up&hellip;</h3>
+
+<p>Sure, but first off, some backround on what you will need. Everyone knows I am a huge Linux fan, so obviously I will be guiding you on how to do this on a Linux Desktop, more specifically an Ubuntu Based, Mint Linux Desktop, but this does not mean that you should be using the same. OctoPress will run on anything that runs Ruby, and well, thats everything except your fancy Chinese Smart Toilet.</p>
+
+<h5>Requirements</h5>
+
+<ul>
+<li>Ruby ~> 1.9.3</li>
+<li>Ruby Gems ~> 1.8.23</li>
+<li>Git ~> 1.9.1</li>
+</ul>
+
+
+<h6>Step 1: Install Git</h6>
+
+<p>If you haven&rsquo;t already got it, install Git on your Desktop. Using a Linux Desktop like Ubuntu you can use apt-get, or for Fedora, yum.
+<code>bash Install Git using the terminal
+sudo apt-get install git
+</code></p>
+
+<h6>Step 2: Clone into the OctoPress Repo.</h6>
+
+<pre><code class="bash Make Dir and Clone Repo">git clone git://github.com/imathis/octopress.git myblog
+cd myblog
+</code></pre>
+
+<h6>Step 3: Configure and Install the Required Gems.</h6>
+
+<pre><code class="bash Install and Configure Gems">sudo gem install bundler -V
+sudo bundle install
+</code></pre>
+
+<p>Okay, Okay. So here I need to stop and give a bit of an explanation. The first command installs bundler. <a href="http://bundler.io/">Bundler</a> is a Ruby Library that allows you to add a file to the source of your application with a list of all it&rsquo;s dependencies. When you install it, you only need to execute Bundler and it will install all of the necessary Gems. It&rsquo;s pretty important that you run both these commands as <code>sudo</code> otherwise the Gems will most likely fail to install.</p>
+
+<h6>Step 4: Install OctoPress</h6>
+
+<pre><code class="bash Install OctoPress">rake install
+</code></pre>
+
+<p>At this point we have all the dependencies required by Octopress and we can now use Rake to install and configure it for us. <a href="https://github.com/ruby/rake">Rake</a> is a Make-like program implemented in Ruby. Tasks and dependencies are specified in standard Ruby syntax. Just like Make, it&rsquo;s pretty powerfull and pretty awesome, so I would suggest you check it out if you are into creating CLI tools and whatchamathings.</p>
+
+<h6>Step 5: Install OctoStrap Theme.</h6>
+
+<pre><code class="bash Install OctoStrap">git clone https://github.com/kAworu/octostrap3.git .themes/octostrap3
+rake "install[octostrap3]"
+rake generate
+</code></pre>
+
+<p>This step essentially downloads the source files from the Git repo and saves them in the .themes folder, in the root directory of OctoPress. You then activate the theme by running the rake &ldquo;install[themename]&rdquo; command which moves the correct files into the correct places. There are <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">many OctoPress Themes</a> available, but like I mentioned earlier, I am a big Bootstrap fan. Also, if you want to modify the OctoStrap Theme to personally fit your needs, follow their <a href="http://kaworu.github.io/octostrap3/setup/pick-a-theme/">Docs</a>, The generate command generates all of the HTML for the new theme. You will run rake generate every time before you publish your blog.</p>
+
+<h6>Step 6: Configure OctoPress</h6>
+
+<pre><code class="ruby Configure OctoPress https://github.com/imathis/octopress/blob/master/_config.yml Link to Gitbhub Source">url: http://blog.mandusmomberg.com
+title: Mandus Momberg's Blog
+subtitle: Everything Big and Interesting.
+author: Mandus Momberg
+simple_search: https://www.google.com/search
+description: This blog is all about BigData, Linux, Windows and the Internet of Things. If it is cool, it belongs here. 
+</code></pre>
+
+<p>The OctoPress config can be found in the _config.yml file in the root folder of OctoPress. There is quite a few setting you can set here, but I am not going to go into too much detail on it. If you want to, you can read the <a href="http://octopress.org/docs/configuring/">Official Documentation</a></p>
+
+<h6>Step 7: Start Bloggin</h6>
+
+<p>At this stage your blog has been set up and you can now start creating posts and pages. Depending on your theme, you might need to make changes to the Navigation Menu in the <em>config.yml file if you want to.
+To create a new Post, you simply run the command:
+<code>bash
+rake new_post["title"]
+</code>
+To create a new Page, you can run:
+<code>
+rake new_page["page name"]
+</code>
+Both these commands will create files in the <code>./source</code> directory. Respectivly in their own folders <code>_posts</code> and &lsquo;</em>pages&rsquo;
+If you want to learn more about posts and pages, and need some more guidance, you can read the <a href="http://octopress.org/docs/blogging/">Official Docs</a></p>
+
+<h3>And Folks, Thats All She Wrote, For Now&hellip;</h3>
+
+<p>There is quite a bit I could be writing around deploying your blog but I felt that this should be another post on its own. Since you can deploy your Blog to Github Pages, S3 and a bunch of other places, I would rather want to spend some time speaking about the benifits and failures of all three and this post is already way to long for that.</p>
+
+<p>Thanks for reading this far and please feel free to leave a comment below.</p>
+]]></content>
+  </entry>
+  
+</feed>
