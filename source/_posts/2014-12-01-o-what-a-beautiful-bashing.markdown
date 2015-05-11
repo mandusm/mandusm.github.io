@@ -3,7 +3,7 @@ layout: post
 title: "O! What a beautiful BASHing!"
 date: 2014-12-01 18:52:58 +0200
 comments: true
-categories: 
+categories: bash scripting linux curl
 ---
 On a daily basis I get faced with interesting problems for which I need to find simple and elegant solutions. The problem though is that these solutions need to work across a large, very diverse, set of environments. So I can't rely on languages like Ruby or Python to always solve my problems, because, the truth is, the environment in which the solution needs to work might not have it installed. But there is one thing, a common denominator across almost all Linux environments that I can comfortably rely on.    
 

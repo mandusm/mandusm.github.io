@@ -3,7 +3,7 @@ layout: post
 title: "Tis the season of Wifi"
 date: 2014-12-15 19:15:07 +0000
 comments: true
-categories: 
+categories: 3g internet linux hotspot
 ---
 Every year in December my family and I go to a small coastal town in the Western Cape. It's a wonderful little town and the weather is perfect for what you would expect from a South African Summer Holiday, but there is one small problem... No proper internet. Being the tech-head in the family, I was once again turned to, to solve the problem. Luckilly I had a Raspberry Pi, D-Link USB Wifi Adapter and Huawei 3G Dongle in my laptop bag... 
 
