@@ -3,7 +3,7 @@ layout: post
 title: "Perfect Terminal"
 date: 2015-05-09 12:28:57 +0200
 comments: true
-categories: bash terminal linux scripting ssh
+categories: 
 ---
 I spend an exuberant amount of time working inside terminals and using ssh to manage remote servers. They range from the default terminal interface shipped with Linux, to the more outrageous OSX Based iTerm2. It's safe to say that because of this, I have spent much of my time customizing the way my terminals react and display information as well as store my SSH keys for easy authentication. In this BLOG post I will discuss the terminals I use and the different settings I invoke to make my time spent in them, more pleasurable. I'll also take a look at how to make SSH keys available across terminal sessions.  
 

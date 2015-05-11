@@ -19,7 +19,7 @@ This is a very nasty rumor started by the White Coats in the Big Blue and Window
 This simply isn't the case and as we will discuss a little later on, the Open Source community thrives on support. In fact, at the heart of this Blog post lies the answer to how you can become a part of this process. 
 
 ###Living la vida loca
-What a lot of people don't understand is that Open Source isn't just a way of developing or licensing your products. It's a way of life. Or maybe, a way of thinking. Open Source contributers have a very strong belief that information and knowledge should be shared. This doesn't stop with their last git commit to Github, but in fact extends to the way they live. You will often find that individuals who follow and support the Open Source community can be identified as people who like to share and improve in real life. By sharing, I mean, it's the guy at your office who is willing to help you figure out a complex problem on you spreadsheet. The girl that comes up with a bootstrap idea that speeds up the way the coffee machine works at the office. Doing all of this without expecting recognition or money, but rather investing in the common advancement of their immediate environments. 
+What a lot of people don't understand is that Open Source isn't just a way of developing or licensing your products. It's a way of life. Or maybe, a way of thinking. Open Source contributers have a very strong belief that information and knowledge should be shared. This doesn't stop with their last git commit to Github, but in fact extends to the way they live. You will often find that individuals who follow and support the Open Source community can be identified as people who like to share and improve in real life. By sharing, I mean, it's the guy at your office who is willing to help you figure out a complex problem on your spreadsheet. The girl that comes up with a bootstrap idea that speeds up the way the coffee machine works at the office. Doing all of this without expecting recognition or money, but rather investing in the common advancement of their immediate environments. 
 
 ###The final frontier
 I'm definitely not saying that all Open Source community members are Trekies, but to drive this idea home I want to use a reference from the Star Trek film "First Contact". At one point, Cpt. Picard tries to explain to a woman from the early 2000's what the economy and drive force behind the Human race is in the 21st century. He goes on to explain. 
@@ -45,6 +45,9 @@ At the fear of sounding like Uncle Sam, We Need You! Go find a project you can b
 
 ###Do you want fries with that? 
 I'll lock down this post by asking the question again... Do you want fries with that? Or will you be heating up the oil and throwing in some spuds yourself? 
+
+--- Edit ---    
+Thanks Ruan for pointing out my typo.
 
 
 
